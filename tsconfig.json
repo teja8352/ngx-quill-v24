@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2022",
+    "useDefineForClassFields": false,
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "ngx-quill-v24/config": [
+        "projects/ngx-quill-v24/config/src/public_api.ts"
+      ],
+      "ngx-quill-v24": [
+        "projects/ngx-quill-v24/src/public_api.ts"
+      ]
+    }
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictInjectionParameters": true
+  }
+}
