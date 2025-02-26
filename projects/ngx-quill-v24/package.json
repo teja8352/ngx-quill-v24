@@ -1,0 +1,30 @@
+{
+  "name": "ngx-quill-v24",
+  "version": "24.0.4",
+  "license": "MIT",
+  "description": "Angular components for the easy use of the QuillJS richt text editor.",
+  "bugs": "https://github.com/KillerCodeMonkey/ngx-quill-v24/issues",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "editor",
+    "rich text",
+    "wysiwyg",
+    "angular",
+    "directive",
+    "component",
+    "quill",
+    "quilljs",
+    "angular",
+    "ng",
+    "ngx",
+    "text editor"
+  ],
+  "sideEffects": false,
+  "peerDependencies": {
+    "@angular/core": "^17.0.0",
+    "quill": "^2.0.3",
+    "rxjs": "^7.0.0"
+  }
+}
